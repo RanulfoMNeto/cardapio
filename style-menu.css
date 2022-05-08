@@ -1,0 +1,85 @@
+/* ============ GERAL ============ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --bg-dark: hsl(140, 6%, 9%);
+  --primary-color: hsl(358, 100%, 31%);
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-dark);
+  font-family: 'Squada One';
+  color: white;
+}
+
+/* ============ NAVIGATION ============ */
+
+nav#navigation {
+  width: 100vw;
+  height: 9.5rem;
+  background-color: var(--primary-color);
+  border-bottom: 1.1rem solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navigation header h1 {
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+/* ============ MENU ============ */
+
+#menu {
+  font-family: 'Righteous';
+}
+
+#menu .wrapper {
+  margin-top: 2rem;
+}
+
+#menu .products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3.7rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#menu .product {
+
+  display: flex;
+  background-color: var(--primary-color);
+  border-radius: 2.5rem;
+  flex-direction: row;
+  padding: 0.5rem;
+  padding-inline: 2rem;
+  
+
+  margin: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+#menu .product img {
+  width: 12.5rem;
+}
+
+#menu .product .content {
+  font-size: 2.0rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+}
