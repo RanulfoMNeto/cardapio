@@ -10,6 +10,7 @@
 :root {
   --bg-dark: hsl(140, 6%, 9%);
   --primary-color: hsl(358, 100%, 31%);
+  --box-shadow-color: hsl(140, 6%, 6%);
   font-size: 62.5%;
 }
 
@@ -29,6 +30,7 @@ nav#navigation {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0.75rem 0.75rem var(--box-shadow-color);
 }
 
 #navigation header h1 {
@@ -69,6 +71,8 @@ nav#navigation {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
+
+  box-shadow: 0.75rem 0.75rem var(--box-shadow-color);
 }
 
 #menu .product img {
